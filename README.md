@@ -76,7 +76,7 @@ The sequence generator transitions through four states in response to a clock si
 ### Steps to Run the Simulation
 1. **Compile the Code:** 
    ```bash
-   iverilog -o sequence_generator_tb sequence_generator.v tb_sequence_generator.v
+   iverilog -o sequence_generator_tb lib/sequence_generator.v tb_sequence_generator.v
    ```
 2. **Run the Test Bench:** 
    ```bash
