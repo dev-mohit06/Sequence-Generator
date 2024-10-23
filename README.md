@@ -16,24 +16,24 @@
   - [Output Description](#output-description)
 - [Conclusion](#conclusion)
 
----
+<!-- --- -->
 
 ## Overview
 This project involves designing and implementing a sequence generator that cycles through a specific 3-bit sequence. The circuit is implemented using Verilog and simulated with Icarus Verilog and GTKWave to visualize the output.
 
----
+<!-- --- -->
 
 ## Problem Statement
 The objective is to generate a specific 4-state sequence: `101 → 110 → 011 → 001`. The sequence generator is driven by a clock signal and should reset to its initial state when a reset signal is asserted.
 
----
+<!-- --- -->
 
 ## Design & Implementation
 
 ### Sequence Generator Circuit
 The sequence generator transitions through four states in response to a clock signal. A reset signal is used to initialize the state machine.
 
----
+<!-- --- -->
 
 ## Setup Instructions
 
@@ -69,7 +69,7 @@ The sequence generator transitions through four states in response to a clock si
    - Go to [GTKWave for Windows](https://gtkwave.sourceforge.net/).
    - Download the installer and complete the setup.
 
----
+<!-- --- -->
 
 ## Simulation Setup and Results
 
@@ -90,7 +90,7 @@ The sequence generator transitions through four states in response to a clock si
 ### Output Description
 The output waveform in GTKWave will display the sequence transitioning through the states: `101 → 110 → 011 → 001`. This verifies the correct implementation of the sequence generator.
 
----
+<!-- --- -->
 
 ## Conclusion
 The sequence generator was successfully implemented to produce a 3-bit sequence. The design was validated using Icarus Verilog and visualized in GTKWave.
