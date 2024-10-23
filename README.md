@@ -14,6 +14,7 @@
 - [Simulation Setup and Results](#simulation-setup-and-results)
   - [Steps to Run the Simulation](#steps-to-run-the-simulation)
   - [Output Description](#output-description)
+- [Project Report](#project-report)
 - [Conclusion](#conclusion)
 
 <!-- --- -->
@@ -89,6 +90,11 @@ The sequence generator transitions through four states in response to a clock si
 
 ### Output Description
 The output waveform in GTKWave will display the sequence transitioning through the states: `101 → 110 → 011 → 001`. This verifies the correct implementation of the sequence generator.
+
+<!-- --- -->
+
+## Project Report
+For a detailed project report, including methodologies, analysis, and additional information, please click [here](./docs/Sequence%20Generator%20Documentation.pdf).
 
 <!-- --- -->
 
